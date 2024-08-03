@@ -19,11 +19,14 @@ public class Test {
 		driver.findElement(By.xpath("/html/body/div[1]/div/header/div/div[3]/div[6]/a/div")).click();
 		
 		Thread.sleep(2000);
+		
 		driver.findElement(By.xpath("//input[contains(@type,'number')]")).sendKeys("820");
 		
 		Thread.sleep(3000);
 		
-		driver.quit();		
+				
 		//driver.findElement(By.xpath("/html/body/div[2]/div[1]/div[2]/div[1]/label/span[1]/input")).click();
+		
+		driver.quit();
 	}
 }
